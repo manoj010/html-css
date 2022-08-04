@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@300&display=swap'); */
 
 /* font-family: 'Poppins', sans-serif; */
 /* font-family: 'Roboto', sans-serif; */
@@ -12,9 +12,15 @@ body {
     color: #010304;
 }
 
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .banner-part {
     padding: 65px 0;
-    /* height: 100vh; */
+    height: 100vh;
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -109,4 +115,34 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    line-height: 2;
+    font-weight: 700;
+}
+
+.about-part {
+    padding: 120px 0;
+}
+
+.two-columns {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+}
+
+.two-columns .col{
+    width: 50%;
+    padding: 0 20px;
+}
+
+.about-part .image-wrap {
+    position: relative;
+    /* width: 500px;
+    height: 345px; */
+    padding-top: 69%;
 }

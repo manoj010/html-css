@@ -18,6 +18,10 @@ body {
     margin: 0 auto;
 }
 
+.container.lg {
+    max-width: 1310px;
+}
+
 .banner-part {
     padding: 65px 0;
     height: 100vh;
@@ -136,9 +140,20 @@ h2 {
     font-weight: 700;
 }
 
+h3 {
+    font-size: 25px;
+    line-height: 1.3;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+}
+
 .style {
     position: relative;
     padding-left: 44px;
+    display: inline-block;
+    vertical-align: top;
+    /* margin: 0 0 -40px; */
 }
 
 .style::after {
@@ -160,10 +175,12 @@ h2 {
     padding: 120px 0;
 }
 
-.two-columns {
+.two-columns, 
+.four-columns {
     display: flex;
     flex-wrap: wrap;
     margin: 0 -20px;
+    padding: 40px 0;
 }
 
 .two-columns .col{
@@ -177,6 +194,16 @@ h2 {
 
 .two-columns .col.small-col {
     width: 41.66%;
+}
+
+.four-columns .col {
+    width: auto;
+    flex: 1;
+    padding: 0 10px;
+}
+
+.four-columns {
+    margin: 0 -20px;
 }
 
 .about-part .image-wrap {
@@ -195,4 +222,88 @@ h2 {
 
 .about-part .btn-wrap {
     margin-top: 60px;
+}
+
+.products-part {
+    text-align: center;
+}
+
+.products-part .style::after{
+    top: -6px;
+}
+
+.products-part h2 {
+    line-height: 1;
+    margin-bottom: 17px;
+}
+
+.products-part p {
+    margin: 0 0 15px;
+}
+
+.product-detail {
+    background-color: #121212;
+    border-radius: 23px;
+    overflow: hidden;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.product-detail h3 {
+    margin-bottom: 20px;
+}
+
+.product-code {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #191919;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    border: 2px solid #b03d42;
+    line-height: 62px;
+    text-align: center;
+    margin: -30px auto 13px;
+    position: relative;
+    z-index: 99;
+}
+
+.products-part .col .product-image {
+    height: 400px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.products-part .col:nth-child(2) .product-image {
+    height: 305px;
+}
+
+.products-part .col:nth-child(3) .product-image {
+    height: 250px;
+}
+
+.products-part .col:nth-child(4) .product-image {
+    height: 182px;
+}
+
+.product-content {
+    padding: 0 20px 30px;
+    font-size: 14px;
+    line-height: 1.57;
+}
+ 
+.products-part .button-wrap {
+    padding: 15px 0;
+}
+
+.products-part .btn {
+    text-transform: capitalize;
+}
+
+.products-part .btn.primary {
+    border-color: #b03d42;
 }

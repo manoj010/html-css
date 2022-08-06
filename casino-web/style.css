@@ -10,6 +10,7 @@
 body {
     margin: 0;
     color: #010304;
+    font: 17px/1.53 'Roboto', 'sans-serif';
 }
 
 .container {
@@ -22,9 +23,35 @@ body {
     max-width: 1310px;
 }
 
-.container .sml {
-    max-width: ;
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700px;
+    font-size: 65px;
+    text-transform: uppercase;
+    margin: 0 0 45px;
+    letter-spacing: 15px;
 }
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    line-height: 2;
+    font-weight: 700;
+    color: #010304;
+}
+
+h3 {
+    font-size: 25px;
+    line-height: 1.3;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+}
+
+/* .container .sml {
+    max-width: ;
+} */
 
 .banner-part {
     padding: 65px 0;
@@ -54,6 +81,15 @@ body {
     mix-blend-mode: darken;
 }
 
+.banner-content {
+    position: relative;
+    z-index: 99;
+    max-width: 500px;
+    color: #ffffff;
+    text-align: center;
+    /* letter-spacing: ; */
+}
+
 .bg-stretch {
     position: absolute;
     top: 0;
@@ -66,12 +102,8 @@ body {
     background-size: cover;
 }
 
-.banner-content {
-    position: relative;
-    z-index: 99;
-    max-width: 976px;
-    color: #ffffff;
-    /* letter-spacing: ; */
+.banner-content p {
+    margin: 0 0 25px;
 }
 
 .overline-text {
@@ -80,17 +112,8 @@ body {
     text-transform: uppercase;
 }
 
-h1 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700px;
-    font-size: 65px;
-    text-transform: uppercase;
-    margin: 0 0 45px;
-    letter-spacing: 15px;
-}
-
-.banner-content p {
-    margin: 0 0 25px;
+.nav span {
+    display: block;
 }
 
 .btn {
@@ -116,7 +139,8 @@ h1 {
     padding: 15px;
     background-color: #bf3d42;
     color: #ffffff;
-    border-radius: 30px;
+    border-radius: 25px;
+    border: 2px solid #bf3d42;
     min-width: 180px;
 }
 
@@ -134,22 +158,6 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-
-h2 {
-    text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
-    font-size: 35px;
-    line-height: 2;
-    font-weight: 700;
-}
-
-h3 {
-    font-size: 25px;
-    line-height: 1.3;
-    font-weight: 400;
-    text-transform: uppercase;
-    margin: 0 0 15px;
 }
 
 .style {
@@ -175,10 +183,6 @@ h3 {
     background-size: cover; */
 }
 
-.about-part {
-    padding: 120px 0;
-}
-
 .two-columns, 
 .four-columns {
     display: flex;
@@ -187,7 +191,7 @@ h3 {
     padding: 40px 0;
 }
 
-.two-columns .col{
+.two-columns .col {
     width: 50%;
     padding: 0 20px;
 }
@@ -200,14 +204,18 @@ h3 {
     width: 41.66%;
 }
 
+.four-columns {
+    margin: 0 -10px;
+}
+
 .four-columns .col {
     width: auto;
     flex: 1;
     padding: 0 10px;
 }
 
-.four-columns {
-    margin: 0 -20px;
+.about-part {
+    padding: 120px 0;
 }
 
 .about-part .image-wrap {
@@ -280,6 +288,10 @@ h3 {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+
+.product-part .four-columns {
+    padding: 45px 0;
 }
 
 .products-part .col:nth-child(2) .product-image {

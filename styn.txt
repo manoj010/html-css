@@ -1,0 +1,9 @@
+https://nodejs.org/download/release/v14.20.0/
+node.js version 20.0.0
+
+npm install -g gulp
+
+powershell - npm gulp
+
+
+install -----> npm i gulp-cli

@@ -22,6 +22,10 @@ body {
     max-width: 1310px;
 }
 
+.container .sml {
+    max-width: ;
+}
+
 .banner-part {
     padding: 65px 0;
     height: 100vh;
@@ -306,4 +310,8 @@ h3 {
 
 .products-part .btn.primary {
     border-color: #b03d42;
+}
+
+.how-to {
+    text-align: center;
 }

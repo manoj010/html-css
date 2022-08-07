@@ -1,5 +1,10 @@
+#wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
 .container {
-    max-width: 1170px;
+    max-width: 1210px; //width + padding (left, right) + border (left, right)
     width: 100%;
     margin: 0 auto;
 
@@ -21,7 +26,7 @@
         width: 42px;
         height: 42px;
         position: absolute;
-        background: url("./img/about-logo.png")no-repeat center /cover;
+        background: url("../img/about-logo.png")no-repeat center /cover;
         top: 9px;
         left: 0;
         bottom: 16px;

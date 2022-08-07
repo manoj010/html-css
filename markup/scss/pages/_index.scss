@@ -130,8 +130,9 @@
     }
 
     .product-code {
-        width: 62px;
-        height: 62px;
+        @include size(62px);
+        // width: 62px;
+        // height: 62px;
         border-radius: 50%;
         color: #fff;
         background-color: #191919;
@@ -152,6 +153,80 @@
     }
 }
 
-.how-to {
+.process-part {
+    background: $dark-black;
     text-align: center;
+    color: $white;
+    padding: 100px 0;
+
+    .container {
+        max-width: 1007px;
+    }
+
+    h2 {
+        color: $white;
+        margin-bottom: 30px;
+    }
+
+    .heading-wrap {
+        max-width: 940px;
+        margin: 0 auto 85px;
+    }
+
+    .icon-wrap {
+        border: 1px solid #f9f9fb;
+        height: 148px;
+        border-radius: 13px;
+        @include flex(wrap, center, center);
+        margin-bottom: 22px;
+    }
+
+    .process-text {
+        // display: inline-block;
+        // vertical-align: top;
+        font-size: 20px;
+        @include ver-align(top);
+    }
+
+    .four-columns {
+        margin: 0 -31px 75px;
+
+        .col {
+            padding: 0 32px;
+        }
+    }
+}
+
+.feedback-part {
+    text-align: center;
+    padding: 100px 0;
+
+    .feedback-img {
+        @include size(158px);
+        margin: 0 auto;
+        border-radius: 50%;
+        border: 2px solid $red;
+        overflow: hidden;
+    
+        img {
+            object-fit: cover;
+            height: 100%;
+            width: auto;
+        }
+    }
+
+    cite {
+        font-size: 19px;
+        line-height: 1.57;
+        text-transform: capitalize;
+        display: block;
+        font-style: normal;
+        font-weight: bold;
+    }
+
+    q {
+        quotes: none;
+        display: inline-block;
+        vertical-align: top;
+    }
 }

@@ -13,3 +13,10 @@ install ----->
 npm install
 
 npm i gulp-cli  /// npm i -g gulp-cli (globally)
+
+
+
+icomoon
+flaticons
+iconfinder
+slick slider

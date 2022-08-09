@@ -20,3 +20,4 @@ icomoon
 flaticons
 iconfinder
 slick slider
+cubic bezier

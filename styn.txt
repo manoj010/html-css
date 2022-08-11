@@ -21,3 +21,11 @@ flaticons
 iconfinder
 slick slider
 cubic bezier
+
+
+bootstrap
+
+npm install gulp
+
+
+npm install node-sass --save-dev

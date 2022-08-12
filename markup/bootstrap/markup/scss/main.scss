@@ -82,9 +82,9 @@ body {
     border-radius: 50%;
     background-color: $white;
     border: 3px solid $black;
-  }
-
-  .active {
-    background-color: $green;
+  
+    &.active {
+      background-color: $green;
+    }
   }
 }

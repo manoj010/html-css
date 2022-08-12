@@ -205,17 +205,11 @@ body {
   min-width: 230px;
 }
 
-.text-area {
-  position: relative;
+textarea {
+  resize: none;
+  height: 110px;
 }
 
-.text-area::after {
-  content: '';
-  position: absolute;
-  bottom: 2px;
-  right: 2px;
-  width: 20px;
-  height: 20px;
-  background: #fff;
-  pointer-events: none;
+.z-index-max {
+  z-index: 999;
 }

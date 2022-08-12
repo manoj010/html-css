@@ -33,3 +33,16 @@ npm install node-sass --save-dev
 bootstrap-4
 
 w3c markup validation
+
+----------------------------------------------------------------------------------------------
+-Niranjan Joshi
+
+node.js version 20.0.0
+npm i -g gulp
+gulp --v
+project-folder with package.json inside
+npm install ===> node_modules
+gulp/gulp watch
+
+//node-sass
+npm i node-sass --save-dev

@@ -99,20 +99,25 @@ body {
   min-width: 230px;
 }
 
-.text-area {
-  position: relative;
+// .text-area {
+//   position: relative;
 
-  &::after {
-    content: '';
-    position: absolute;
-    bottom: 2px;
-    right: 2px;
-    @include size (20px);
-    background: $white;
-    pointer-events: none;
-  }
-}
+//   &::after {
+//     content: '';
+//     position: absolute;
+//     bottom: 2px;
+//     right: 2px;
+//     @include size (20px);
+//     background: $white;
+//     pointer-events: none;
+//   }
+// }
 
 textarea {
-  // resize: none;
+  resize: none;
+  height: 110px;
+}
+
+.z-index-max {
+  z-index: 999;
 }

@@ -118,7 +118,10 @@ $spacers: map-merge((
 	10: 1rem,
 	15: 1.5rem,
 	30: 3rem,
-	40: 4rem
+	40: 4rem,
+	100: 10rem,
+	110: 11rem,
+	50: 5rem
 	), $spacers);
 
 $rem-base: 10px;
@@ -166,6 +169,7 @@ $btn-font-family:             $font-family-base;
 $btn-font-size:               1.7rem;
 $btn-line-height:             1;
 $btn-border-width:            0.2rem;
+$btn-line-height:             1;
 
 $btn-font-weight:  $font-weight-normal; 
 $body-bg:                   $white;

@@ -200,3 +200,7 @@ body {
 .banner-part h1 {
   line-height: 1;
 }
+
+.btn {
+  min-width: 230px;
+}

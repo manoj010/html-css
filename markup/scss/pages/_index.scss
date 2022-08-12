@@ -280,7 +280,7 @@
         color: $red;
         position: absolute;
         top: 50%;
-        transform: translate(-50%);
+        transform: translateY(-50%);
         z-index: 999;
     
         &.slick-prev {
